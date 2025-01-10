@@ -110,17 +110,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\MovieShop\\appsettings.json",
               "RelativeDocumentMoniker": "MovieShop\\appsettings.json",
-              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\MovieShop\\appsettings.json*",
-              "RelativeToolTip": "MovieShop\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\MovieShop\\appsettings.json",
+              "RelativeToolTip": "MovieShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-10T21:30:28.491Z",
               "EditorCaption": ""
@@ -135,8 +139,7 @@
               "RelativeToolTip": "Infrastructure\\Services\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:53.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:53.429Z"
             },
             {
               "$type": "Document",
@@ -148,8 +151,7 @@
               "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:49.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:49.069Z"
             },
             {
               "$type": "Document",
@@ -161,8 +163,7 @@
               "RelativeToolTip": "Infrastructure\\Services\\GenreService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:47.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:47.157Z"
             },
             {
               "$type": "Document",
@@ -174,8 +175,7 @@
               "RelativeToolTip": "Infrastructure\\Services\\CastService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:39.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:39.609Z"
             },
             {
               "$type": "Document",
@@ -187,8 +187,7 @@
               "RelativeToolTip": "Infrastructure\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:34.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:34.953Z"
             },
             {
               "$type": "Document",
@@ -200,8 +199,7 @@
               "RelativeToolTip": "Infrastructure\\Repository\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:28.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:28.136Z"
             },
             {
               "$type": "Document",
@@ -213,8 +211,7 @@
               "RelativeToolTip": "Infrastructure\\Data\\MovieShopDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T22:05:47.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T22:05:47.127Z"
             },
             {
               "$type": "Document",
@@ -226,8 +223,7 @@
               "RelativeToolTip": "Infrastructure\\Repository\\MovieRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:23.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:23.082Z"
             },
             {
               "$type": "Document",
@@ -239,8 +235,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\UpdatedDate_is_nullable.Designer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:04.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:04.915Z"
             },
             {
               "$type": "Document",
@@ -252,8 +247,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Tagline_typ.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:09:57.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:09:57.411Z"
             },
             {
               "$type": "Document",
@@ -265,8 +259,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Tagline_in_Movies.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:09:49.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:09:49.886Z"
             },
             {
               "$type": "Document",
@@ -278,8 +271,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\TagLine_Added_to_Movies_table.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:09:41.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:09:41.609Z"
             },
             {
               "$type": "Document",
@@ -291,8 +283,7 @@
               "RelativeToolTip": "Infrastructure\\Repository\\CastRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:07:44.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:07:44.652Z"
             },
             {
               "$type": "Document",
@@ -304,8 +295,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Price_is_nullable.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:09:27.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:09:27.661Z"
             },
             {
               "$type": "Document",
@@ -317,8 +307,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Price_is_nullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:52.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:08:52.496Z"
             },
             {
               "$type": "Document",
@@ -330,8 +319,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\InitialCreate.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:45.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:08:45.3Z"
             },
             {
               "$type": "Document",
@@ -343,8 +331,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Day2.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:33.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:08:33.588Z"
             },
             {
               "$type": "Document",
@@ -356,8 +343,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Day2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:32.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:08:32.538Z"
             },
             {
               "$type": "Document",
@@ -369,8 +355,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\CreatedDate_is_nullable.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:22.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:08:22.801Z"
             },
             {
               "$type": "Document",
@@ -382,8 +367,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\MovieShopDbContextModelSnapshot.cs",
               "ViewState": "AgIAAPABAAAAAAAAAAAQwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:06:59.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:06:59.653Z"
             },
             {
               "$type": "Document",
@@ -395,12 +379,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Columns_is_nullable.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:08:01.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-01-10T21:08:01.45Z"
             },
             {
               "$type": "Document",
@@ -412,8 +391,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:05:33.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:05:33.442Z"
             },
             {
               "$type": "Document",
@@ -425,8 +403,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\CreatedDate_is_nullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:04:46.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:04:46.452Z"
             },
             {
               "$type": "Document",
@@ -438,8 +415,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\Columns_is_nullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:04:29.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:04:29.59Z"
             }
           ]
         }
