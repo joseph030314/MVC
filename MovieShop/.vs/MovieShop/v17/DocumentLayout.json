@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8FCED3D-7311-4C95-9CAF-130D8FC2C5E7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\applicationcore\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FCED3D-7311-4C95-9CAF-130D8FC2C5E7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GenreModel.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\ApplicationCore\\Models\\GenreModel.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\GenreModel.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\ApplicationCore\\Models\\GenreModel.cs",
+              "RelativeToolTip": "ApplicationCore\\Models\\GenreModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T22:33:18.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\MovieShop\\appsettings.json",
               "RelativeDocumentMoniker": "MovieShop\\appsettings.json",
@@ -126,12 +143,11 @@
               "RelativeToolTip": "MovieShop\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T21:30:28.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:30:28.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CastService.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\CastService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\CastService.cs",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\UserRepository.cs",
@@ -155,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\Repository.cs",
@@ -167,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\MovieRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\MovieRepository.cs",
@@ -175,12 +191,11 @@
               "RelativeToolTip": "Infrastructure\\Repository\\MovieRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:23.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T21:10:23.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\UserService.cs",
@@ -192,20 +207,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MovieShopDbContext.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\MovieShopDbContext.cs",
               "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\MovieShopDbContext.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwCEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA8wBkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T22:05:47.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GenreService.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\GenreService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\GenreService.cs",
@@ -217,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
@@ -229,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UpdatedDate_is_nullable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\UpdatedDate_is_nullable.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\UpdatedDate_is_nullable.Designer.cs",
@@ -241,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Tagline_typ.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Tagline_typ.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Tagline_typ.Designer.cs",
@@ -253,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Tagline_in_Movies.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Tagline_in_Movies.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Tagline_in_Movies.Designer.cs",
@@ -265,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TagLine_Added_to_Movies_table.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\TagLine_Added_to_Movies_table.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\TagLine_Added_to_Movies_table.Designer.cs",
@@ -277,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CastRepository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\CastRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\CastRepository.cs",
@@ -289,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Price_is_nullable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Price_is_nullable.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Price_is_nullable.Designer.cs",
@@ -301,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Price_is_nullable.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Price_is_nullable.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Price_is_nullable.cs",
@@ -313,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "InitialCreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\InitialCreate.Designer.cs",
@@ -325,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Day2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Day2.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Day2.Designer.cs",
@@ -337,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Day2.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Day2.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Day2.cs",
@@ -349,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CreatedDate_is_nullable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\CreatedDate_is_nullable.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\CreatedDate_is_nullable.Designer.cs",
@@ -361,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MovieShopDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\MovieShopDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\MovieShopDbContextModelSnapshot.cs",
@@ -373,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Columns_is_nullable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Columns_is_nullable.Designer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Columns_is_nullable.Designer.cs",
@@ -385,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\InitialCreate.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\InitialCreate.cs",
@@ -397,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CreatedDate_is_nullable.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\CreatedDate_is_nullable.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\CreatedDate_is_nullable.cs",
@@ -409,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Columns_is_nullable.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Migrations\\Columns_is_nullable.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\Columns_is_nullable.cs",
