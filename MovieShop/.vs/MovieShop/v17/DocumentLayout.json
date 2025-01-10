@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A9E038E-9E93-47A2-9E35-6F8ED737500C}|MovieShop\\MovieShop.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\movieshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5A9E038E-9E93-47A2-9E35-6F8ED737500C}|MovieShop\\MovieShop.csproj|solutionrelative:movieshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D7EB85C-B22E-4C0D-913C-C6097996B6D0}|Infrastructure\\Infrastructure.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\mvc\\mvc\\movieshop\\infrastructure\\repository\\castrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\MovieShop\\appsettings.json",
               "RelativeDocumentMoniker": "MovieShop\\appsettings.json",
@@ -131,43 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\UserService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:53.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:49.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\GenreService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\GenreService.cs",
-              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\GenreService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\GenreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:47.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CastService.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\CastService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\CastService.cs",
@@ -179,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\UserRepository.cs",
@@ -191,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\Repository.cs",
@@ -203,27 +167,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\MovieShopDbContext.cs",
-              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\MovieShopDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T22:05:47.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\MovieRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\MovieRepository.cs",
               "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Repository\\MovieRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repository\\MovieRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:10:23.082Z"
+              "WhenOpened": "2025-01-10T21:10:23.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T21:10:53.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\MovieShopDbContext.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Data\\MovieShopDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\MovieShopDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwCEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T22:05:47.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\GenreService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\GenreService.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\GenreService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\GenreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T21:10:47.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\MVC\\MVC\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T21:10:49.069Z"
             },
             {
               "$type": "Document",

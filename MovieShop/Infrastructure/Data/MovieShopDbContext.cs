@@ -31,7 +31,7 @@ namespace Infrastructure.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("\"MovieShopDbConnection\": \"Data Source=SARTHAKX360\\\\MSSQLSERVER01;Initial Catalog=MovieShopApp;Integrated Security=True;Trust Server Certificate=True\"",
+                optionsBuilder.UseSqlServer("\"MovieShopDbConnection\": \"Data Source=.;Initial Catalog=MovieShopApp;Integrated Security=True;Trust Server Certificate=True\"",
                     sqlServerOptions => sqlServerOptions.CommandTimeout(180)); // Timeout in seconds
             }
         }
