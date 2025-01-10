@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(MovieShopDbContext))]
-    [Migration("20240718043709_Price_is_nullable")]
+    [Migration("Price_is_nullable")]
     partial class Price_is_nullable
     {
         /// <inheritdoc />

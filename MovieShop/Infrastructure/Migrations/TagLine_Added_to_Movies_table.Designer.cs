@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(MovieShopDbContext))]
-    [Migration("20240718043443_TagLine_Added_to_Movies_table")]
+    [Migration("TagLine_Added_to_Movies_table")]
     partial class TagLine_Added_to_Movies_table
     {
         /// <inheritdoc />

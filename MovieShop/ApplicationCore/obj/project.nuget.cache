@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E2UaVgmLiMI=",
+  "dgSpecHash": "0FcUVXaGJX8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\qingy\\OneDrive\\文档\\GitHub\\.net\\MVC\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\qingy\\OneDrive\\文档\\GitHub\\MVC\\MVC\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qingy\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\qingy\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
