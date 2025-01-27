@@ -1,46 +1,43 @@
-﻿using System;
+﻿using ApplicationCore.Contracts.Repositories;
+using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
+using ApplicationCore.Models;
+using Infrastructure.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using ApplicationCore.Contracts.Services;
-using ApplicationCore.Entities;
-using ApplicationCore.Models;
-using ApplicationCore.Contracts.Repository;
-using AutoMapper;
-using ApplicationCore.RepositoryInterfaces;
 
 namespace Infrastructure.Services
 {
     public class GenreService : IGenreService
     {
-        private readonly IGenreRepository _genreRepository;
-        private readonly IMapper _mapper;
+        private readonly IGenreRepositoryAsync _genreRepository;
 
-        public GenreService(IGenreRepository genreRepository, IMapper mapper)
+        public GenreService(IGenreRepositoryAsync genreRepository)
         {
             _genreRepository = genreRepository;
-            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<GenreModel>> GetAllGenres()
+        public async Task<GenreModel> GetGenreByIdAsync(int genreId)
         {
-            var genres = await _genreRepository.ListAllAsync();
-            var genreModels = _mapper.Map<IEnumerable<GenreModel>>(genres);
-            return genreModels;
+            var genre = await _genreRepository.GetByIdAsync(genreId);
+            if (genre == null)
+            {
+                return null;
+            }
+            return new GenreModel { Id = genre.Id, Name = genre.Name };
         }
 
         public async Task<IEnumerable<GenreModel>> GetAllGenresAsync()
         {
-            var genres = await _genreRepository.ListAllAsync();
-            var genreModels = _mapper.Map<IEnumerable<GenreModel>>(genres);
-            return genreModels;
-        }
-        public async Task<Genre> GetGenreByIdAsync(int id) 
-        {
-            return await _genreRepository.GetByIdAsync(id);
+            var genres = await _genreRepository.GetAllAsync();
+            if (!genres.Any())
+            {
+                Console.WriteLine("No genres found in the database.");
+            }
+            return genres.Select(g => new GenreModel { Id = g.Id, Name = g.Name });
         }
     }
 }

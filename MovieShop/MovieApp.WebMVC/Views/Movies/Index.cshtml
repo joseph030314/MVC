@@ -1,0 +1,10 @@
+﻿@model ApplicationCore.Models.PaginationModel<ApplicationCore.Models.MovieCardModel>
+
+<div class="movie-grid py-3">
+    @foreach (var movie in Model)
+    {
+        @await Html.PartialAsync("MovieCard", movie)
+    }
+</div>
+
+@await Html.PartialAsync("Pagination", Model)

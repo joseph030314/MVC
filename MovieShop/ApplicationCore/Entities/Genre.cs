@@ -10,12 +10,12 @@ namespace ApplicationCore.Entities
 {
     public class Genre
     {
-        [Required]
-        [Column(TypeName = "int")]
         public int Id { get; set; }
-        [Column(TypeName = "nvarchar(24)")]
+
+        [Required (ErrorMessage ="Name is required")]
+        [Column(TypeName ="varchar(50)")]
         public string Name { get; set; }
 
-        public ICollection<MovieGenre> MovieGenres { get; set; }
+        public ICollection<MovieGenre> MovieGenres { get; set; } = new List<MovieGenre>();
     }
 }

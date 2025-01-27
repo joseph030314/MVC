@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MovieShop",
+    "\\MovieShop\\ApplicationCore",
+    "\\MovieShop\\ApplicationCore\\Contracts\\Repository",
+    "\\MovieShop\\Infrastructure",
+    "\\MovieShop\\Infrastructure\\Data",
+    "\\MovieShop\\Infrastructure\\Migrations"
+  ],
+  "SelectedNode": "\\MovieShop\\Infrastructure\\Migrations\\Columns_is_nullable.cs",
+  "PreviewInSolutionExplorer": false
+}

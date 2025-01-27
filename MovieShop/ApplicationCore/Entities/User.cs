@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,35 +9,42 @@ namespace ApplicationCore.Entities
 {
     public class User
     {
-        [Required]
-        [Column(TypeName = "int")]
         public int Id { get; set; }
-        [Required]
-        [Column(TypeName = "nvarchar(128)")]
-        public string FirstName { get; set; }
-        [Required]
-        [Column(TypeName = "nvarchar(128)")]
-        public string LastName { get; set; }
-        [Required]
-        [Column(TypeName = "nvarchar(256)")]
-        public string Email { get; set; }
-        [Required]
-        [Column(TypeName = "nvarchar(1024)")]
-        public string HashedPassword { get; set; }
-        [Required]
-        [Column(TypeName = "nvarchar(1024)")]
-        public string Salt { get; set; }
-        [Column(TypeName = "datetime2")]
+
+        [Required(ErrorMessage = "Date of Birth is required")]
         public DateTime DateOfBirth { get; set; }
-        [Column(TypeName = "nvarchar(16)")]
-        public string PhoneNumber { get; set; }
-        [Column(TypeName = "nvarchar(MAX)")]
-        public string ProfilePictureUrl { get; set; }
-        [Column(TypeName = "bit")]
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
+        [MaxLength(256, ErrorMessage = "Email cannot exceed 256 characters")]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "First Name is required")]
+        [MaxLength(128, ErrorMessage = "First Name cannot exceed 128 characters")]
+        public string FirstName { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        [MaxLength(1024)]
+        public string HashedPassword { get; set; }
+
         public bool IsLocked { get; set; }
 
-        public ICollection<Purchase> Purchases { get; set; }
-        public ICollection<Review> Reviews { get; set; }
-        public ICollection<Favorite> Favorites { get; set; }
+        [Required(ErrorMessage = "Last Name is required")]
+        [MaxLength(128, ErrorMessage = "Last Name cannot exceed 128 characters")]
+        public string LastName { get; set; }
+
+        [Phone(ErrorMessage = "Invalid phone number")]
+        [MaxLength(16, ErrorMessage = "Phone Number cannot exceed 16 characters")]
+        public string PhoneNumber { get; set; }
+
+        [Url(ErrorMessage = "Invalid profile picture URL")]
+        public string ProfilePictureUrl { get; set; }
+
+        //[Required(ErrorMessage = "Salt is required")]
+        [MaxLength(1024)]
+        public string Salt { get; set; }
+
+        public ICollection<UserRole> UserRoles { get; set; } = [];
+        public ICollection<Purchase> Purchases { get; set; } = [];
     }
 }

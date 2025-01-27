@@ -1,17 +1,17 @@
-﻿using System;
+﻿using ApplicationCore.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ApplicationCore.Entities;
 
 namespace ApplicationCore.Contracts.Services
 {
     public interface IMovieService
     {
-        // Task<List<MovieCardModel>> GetTestMovies();
-        Task<PaginatedResultSet<MovieCardModel>> GetMoviesByGenre(int genreId, int pageSize, int pageNumber);
-        Task<Movie> MovieDetails(int id);
-        Task<IEnumerable<Movie>> GetTopGrossingMovies();
+        Task<PaginationModel<MovieCardModel>> GetMoviesForHomePageAsync(int page, int pageSize);
+        Task<PaginationModel<MovieCardModel>> GetMoviesByGenreAsync(int genreId, int page, int pageSize);
+        Task<PaginationModel<MovieCardModel>> GetMoviesPurchasedByUserIdAsync(int userId, int page, int pageSize);
+        Task<MovieDetailModel> GetMovieDetailAsync(int movieId, int userId);
     }
 }

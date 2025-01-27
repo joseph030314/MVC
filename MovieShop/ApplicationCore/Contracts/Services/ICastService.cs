@@ -1,4 +1,4 @@
-﻿using ApplicationCore.Entities;
+﻿using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace ApplicationCore.Contracts.Services
 {
     public interface ICastService
     {
-        Task<Cast> GetCastDetails(int id);
+        Task<CastDetailModel> GetCastDetails(int castId);
     }
 }

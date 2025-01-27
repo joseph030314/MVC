@@ -1,0 +1,8 @@
+﻿@model ApplicationCore.Models.MovieCardModel
+
+<div class="movie-card">
+    <a href="@Url.Action("Details", "Movies", new { id = Model.Id })">
+        <img src="@Model.PosterUrl" alt="@Model.Title" />
+        <div class="movie-title">@Model.Title</div>
+    </a>
+</div>
